@@ -64,23 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-JevModel is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+JevModel offers a structured decision model that processes text or JSON and returns typed answers—Choice, Score, or Noul—with associated probabilities. The service provides a web console, batch tools, and an API that developers can integrate to perform tasks such as content moderation, spam filtering, support triage, ticket routing, and sentiment analysis. Access is sold via token packs or one‑time purchase plans.
 
-**Areas:** Company
+**Areas:** Decision API · Content Moderation · Spam Filtering · Support Triage · Ticket Routing · Language Detection · Personal Data Screening
 
 ## JevModel on APIs.io
 
 Everything profiled for JevModel is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jevmodel-app/](https://apis.io/providers/jevmodel-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [JevModel API](https://apis.io/apis/jevmodel-app/jevmodel-app-api/) — JevModel API as documented publicly: 5 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Jevmodel App Webhooks](https://apis.io/asyncapis/jevmodel-app/jevmodel-app-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1SystemoneResponse](https://apis.io/schemas/jevmodel-app/jevmodel-app-get-api-v1-systemone-response/)
+- [PostApiV1SystemoneRequest](https://apis.io/schemas/jevmodel-app/jevmodel-app-post-api-v1-systemone-request/)
+- [PostTurnstileV0SiteverifyRequest](https://apis.io/schemas/jevmodel-app/jevmodel-app-post-turnstile-v0-siteverify-request/)
+- [PostTurnstileV0SiteverifyResponse](https://apis.io/schemas/jevmodel-app/jevmodel-app-post-turnstile-v0-siteverify-response/)
+- [Post11CommentCheckRequest](https://apis.io/schemas/jevmodel-app/jevmodel-app-post11-comment-check-request/)
+- [Post11CommentCheckResponse](https://apis.io/schemas/jevmodel-app/jevmodel-app-post11-comment-check-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Jevmodel App Context](https://apis.io/jsonld/jevmodel-app/jevmodel-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [JevModel API Rules](https://apis.io/rules/jevmodel-app/jevmodel-app-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jevmodel App Domain Security](https://apis.io/security/jevmodel-app/jevmodel-app-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Jevmodel App Plans Pricing](https://apis.io/plans/jevmodel-app/jevmodel-app-plans-pricing/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://jevmodel.app)
+- [Documentation](https://jevmodel.app/guides)
+- [Getting started](https://jevmodel.app/guides/getting-started)
+- [Pricing](https://jevmodel.app/pricing)
+- [Terms of service](https://jevmodel.app/terms-of-service)
+- [Privacy policy](https://jevmodel.app/privacy-policy)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/jevmodel-app/](https://apis.io/providers/jevmodel-app/).
+**Kin Score 52.3** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 60.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 24.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jevmodel-app/](https://apis.io/providers/jevmodel-app/).
 
 ## How this profile is made
 
